@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding-left: 15px;
+  margin-right: 15px;
+}
+
+.my-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px; 
+}
+
+.to-image {
+  width: 80%;
+  height: 300px; 
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.etoile{
+  color: orange;
+}
+
+.myEtoile{
+  color: blue;
+}
+
+.jungle{
+  display: flex;
+}
+
+.jungle img{
+  width: 50px; 
+  height: 50px;
+}
+
+.jungle h1{
+  font-size: 38px;
+  margin-right: -10px;
+}
+
+.jungle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monImage {
+  margin-left: auto;
+  margin-top: -10px;
+  margin-right: -5px;
+
+}
+
+.prix {
+  position: relative;
+  display: inline-block;
+  width: 250px; 
+  top: -390px;
+  margin-left: 70px;
+}
+
+.myPrix {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: green; 
+  color: white;
+  border-radius: 25px; 
+  padding: 5px 10px;
+  font-size: 34px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.ouvrir{
+  color: black;
+  background-color: white;
+  font-weight: bold;
+
+}
+
+.ouvrir:hover{
+  background-color: white;
+}
+
+.panier{
+  color: white;
+  font-weight: bold;
+ font-size: 20px;
+}
+
+.vider{
+  background-color: white;
+  color: black;
+}
+
+.monpanier{
+  background-color: green;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.mygraine{
+  background-color: white;
+  color: black;
+}
+
+.graine{
+  margin-left: 600px;
+}
